@@ -5,8 +5,8 @@ import './index.scss';
 export default function Aurea() {
 
     return (
-        <div>
-            <h1>z </h1>
+        <div className='promocao'>
+            <h3>PROMOÇÃO DE 15% EM TODOS OS PRODUTOS</h3>
         </div>
     );
 }
