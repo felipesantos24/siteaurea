@@ -49,7 +49,7 @@ export default function Aurea() {
 
             </div>
         </div>
-        <img className='maos1' src="maos1.jpg" alt="" />
+        <img className='maos1' src="maos1.png" alt="" />
 
         <h2>categoria</h2>
         <p>encontre a sua favorita</p>
