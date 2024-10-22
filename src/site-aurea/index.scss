@@ -7,7 +7,7 @@
     background-color: #9C8870;
     .auria {
         display: flex;
-        margin-left: 680px;
+        margin-left: 600px;
         width: 100px;
     }
 } 
@@ -15,7 +15,7 @@
 .carroceu {
     .braço {
         display: flex;
-        width: 1478px;
+        width: 1263px;
     }
 }
 .cards {
@@ -37,7 +37,7 @@
   padding: 50px;
   font-size: x-large;
   border-radius: 30px;
-  margin-left: 100px;
+  margin-left: 10px;
   background-color: #97796F;
   .imag {
     height: 150px;
@@ -78,84 +78,129 @@
 
 
 .fl{
+  font-size: xxx-large;
     display: flex;
  align-items: center;
  justify-content: center;
- 
- 
  }
 
+ 
  .setabaixo{
-display: flex;
-margin-left: 710px;
-height: 35px;
+   display: flex;
+   margin-left: 615px;
+   height: 35px;
 width: 35px;
  }
 
  .maos1{
     display: flex;
-    width: 1478px;
-
-
-
- }
-
- .imagg{
-height: 120px;
-width: 100px;
-border-radius: 30px;
-
+    width: 1263px;
  }
 
  .categoria{
 margin-top: 40px;
-
-
  }
-
- .categoriaanel{
  
-  margin-left: 450px;
-  
-
-
- }
-
- .categoriapulseira{
- 
-    margin-left: 50px;
+ .categorias {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+  }
     
-  
-  
-   }
+.categoriaanel {
+  width: 200px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  .imagg {
+    width: 150px;
+    height: auto;
+  }
+}
 
-   .categoriabrincos{
- 
-    margin-left: 50px;
-    
-  
-  
-   }
+.categoriapulseira {
+  width: 200px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  .imagg {
+    width: 150px;
+    height: auto;
+  }
+}
 
-   .categoriacolar{
- 
-    margin-left: 50px;
-    
-  
-  
-   }
-    
+.categoriabrincos {
+  width: 200px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  .imagg {
+    width: 150px;
+    height: auto;
+  }
+}
 
-   h2{
-display: flex;
+.categoriacolar {
+  width: 200px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  .imagg {
+    width: 150px;
+    height: auto;
+  }
+}
+
+.categoriah1{
+  font-size: xxx-large;
+   display: flex;
+align-items: center;
+justify-content: center;
+}
+  .categoriah2{
+    font-size: large;
+    display: flex;
 align-items: center;
     justify-content: center;
    }
 
-   p{
+   .fotocimasobrenos {
+    padding: 100px 0px;
     display: flex;
-    align-items: center;
-        justify-content: center;
-       }
+    .realce {
+      width: 1263px;
+      height: auto;
+    }
+   }
 
+   .sobrenos {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 130px
+  } 
+
+  .maocara {
+    width: 300px;
+    height: auto;
+  }
    
+  .comentario {
+    padding: 100px;
+    .categoriah12 { 
+        font-size: xxx-large;
+         display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .caixacoment {
+    display: flex;
+  }
+
+  .inputsss {
+    width: 200px;
+    height: 40px;
+  }

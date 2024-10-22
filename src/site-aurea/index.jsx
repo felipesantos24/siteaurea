@@ -51,8 +51,8 @@ export default function Aurea() {
         </div>
         <img className='maos1' src="maos1.png" alt="" />
 
-        <h2>categoria</h2>
-        <p>encontre a sua favorita</p>
+        <h1 className='categoriah1'>Categoria</h1>
+        <h2 className='categoriah2'>encontre a sua favorita</h2>
         <div className='categoria'>
         <div className='categorias'>
         <button className='categoriaanel'><img className='imagg' src="anel.jpg" alt="" />
@@ -67,11 +67,26 @@ export default function Aurea() {
         <button className='categoriacolar'><img className='imagg' src="colar.jpg" alt="" />
         <p>colares</p>
         </button>
-
         </div>
         </div>
-
-
+        <div className='fotocimasobrenos'> <img className='realce' src="as.png" alt="realce" /> </div>
+        <div className='sobrenos'>
+            <div className='textosobrenos'>
+            <h1 className='categoriah1'>SOBRE NOS :</h1> <br /> 
+                <h2>Nossas joias são criadas com pedras preciosas e <br />metais nobres, refletindo um design sofisticado <br/> e um acabamento impecável. Cada peça é feita  <br /> para realçar sua beleza e transformar qualquer <br />  ocasião em um momento inesquecível.</h2>
+            </div>
+            <div className='imagem'>
+                <img className='maocara' src="maocara.png" alt="" />
+            </div>
+        </div>
+        <div className='comentario'> 
+            <h1 className='categoriah12'>DEIXE SEU <br />
+            COMENTARIO</h1>
+        </div>
+        <div className='caixacoment'>
+            <input className='inputsss' placeholder='🔎 Comente Aqui'></input>
+            <button>Enviar</button>
+        </div>
     </div>
     );
 }
