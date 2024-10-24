@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Carousel from './components/carroseu';
 
 import './index.scss';
 
@@ -12,8 +14,8 @@ export default function Aurea() {
             </div>
         </header>
 
-        <div className='carroceu'>
-            <img className='braço' src="braco.png" alt="" />
+        <div className="carrosel">
+            <Carousel />
         </div>
         <div className='maisvendidos'>
             <h1 className='fl'>Mais Vendidos</h1>
@@ -55,18 +57,22 @@ export default function Aurea() {
         <h2 className='categoriah2'>encontre a sua favorita</h2>
         <div className='categoria'>
         <div className='categorias'>
-        <button className='categoriaanel'><img className='imagg' src="anel.jpg" alt="" />
-        <p>aneis</p>
-        </button>
-        <button className='categoriapulseira'><img className='imagg' src="pulseira.jpg" alt="" />
-        <p>pulseiras</p>
-        </button>
-        <button className='categoriabrincos'><img className='imagg' src="brincos.jpg" alt="" />
-        <p>broncos</p>
-        </button>
-        <button className='categoriacolar'><img className='imagg' src="colar.jpg" alt="" />
-        <p>colares</p>
-        </button>
+        <Link to="/anel" className='categoriaanel'>
+    <img className='imagg' src="anel.jpg" alt="" />
+    <p className='textoanel'>aneis</p>
+        </Link>
+        <Link to="/pulseira" className='categoriapulseira'>
+    <img className='imagg' src="anel.jpg" alt="" />
+    <p className='textoanel'>pulseiras</p>
+        </Link>
+        <Link to="/brincos" className='categoriabrincos'>
+    <img className='imagg' src="anel.jpg" alt="" />
+    <p className='textoanel'>brincos</p>
+        </Link>
+        <Link to="/colar" className='categoriacolar'>
+    <img className='imagg' src="anel.jpg" alt="" />
+    <p className='textoanel'>colares</p>
+        </Link>
         </div>
         </div>
         <div className='fotocimasobrenos'> <img className='realce' src="as.png" alt="realce" /> </div>
@@ -82,10 +88,27 @@ export default function Aurea() {
         <div className='comentario'> 
             <h1 className='categoriah12'>DEIXE SEU <br />
             COMENTARIO</h1>
-        </div>
-        <div className='caixacoment'>
-            <input className='inputsss' placeholder='🔎 Comente Aqui'></input>
-            <button>Enviar</button>
+            <br /><br /><br />
+<div className='caixacoment'>
+    <div className='comentariossd'>
+        <input className='inputsss' placeholder='🔎 Comente Aqui'></input>
+        <button className='buttton'>Enviar</button>
+    </div>
+    <div className='comentarios'>
+    <div className='comentario-exibido'>
+        <h2 className='bruno'>
+            <br /> Bruno 
+            <p className='elogio'><br />Muito bom!!<br />Otimas qualidades <br /> Recomendo</p>
+        </h2> 
+    </div>
+    <div className='comentario-exibido'>
+        <h2 className='bruno'>
+            <br /> Robson 
+            <p className='elogio'><br />Joias de <br /> altissima qualidade <br /> super recomendo!</p>
+        </h2> 
+    </div>
+    </div>
+</div>
         </div>
     </div>
     );

@@ -107,25 +107,29 @@ margin-top: 40px;
    gap: 100px;
   }
     
-.categoriaanel {
-  width: 200px;
-  outline: none;
-  background-color: transparent;
-  cursor: pointer;
-  .imagg {
-    width: 150px;
-    height: auto;
+  .categoriaanel {
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    .imagg2 {
+      width: 150px;
+    }
+    .textoanel {
+      text-align: center;
+    }
   }
-}
 
 .categoriapulseira {
   width: 200px;
   outline: none;
   background-color: transparent;
   cursor: pointer;
-  .imagg {
+  .imagg2 {
     width: 150px;
-    height: auto;
+  }
+  .textoanel {
+    text-align: center;
   }
 }
 
@@ -134,9 +138,11 @@ margin-top: 40px;
   outline: none;
   background-color: transparent;
   cursor: pointer;
-  .imagg {
+  .imagg3 {
     width: 150px;
-    height: auto;
+  }
+  .textoanel {
+    text-align: center;
   }
 }
 
@@ -145,9 +151,11 @@ margin-top: 40px;
   outline: none;
   background-color: transparent;
   cursor: pointer;
-  .imagg {
+  .imagg4 {
     width: 150px;
-    height: auto;
+  }
+  .textoanel {
+    text-align: center;
   }
 }
 
@@ -186,7 +194,7 @@ align-items: center;
   }
    
   .comentario {
-    padding: 100px;
+    padding: 30px 100px;
     .categoriah12 { 
         font-size: xxx-large;
          display: flex;
@@ -198,9 +206,53 @@ align-items: center;
 
   .caixacoment {
     display: flex;
+}
+
+.inputsss {
+  border-radius: 80px;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+}
+
+.comentariossd {
+    display: flex;
+    padding: 30px 100px;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.buttton {
+    align-self: flex-start;
+    border-radius: 30px;
+    width: 80px;
+    margin-top: 10px;
+    height: 40px;
+    background-color: lightgray;
+    margin-left: 120px;
+}
+
+
+  .bruno {
+   background-color: lightgray;
+   border-radius: 40px;
+   width: 280px;
+   height: 250px;
+   text-align: center;
+   font-size: x-large;
   }
 
-  .inputsss {
-    width: 200px;
-    height: 40px;
+  .elogio {
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-left: 26px;
+    width: 230px;
+    height: 120px;
+  }
+
+  .comentarios {
+    display: flex;
+    flex-direction: row;
+    gap: 100px
   }
