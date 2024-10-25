@@ -1,0 +1,29 @@
+  
+  .container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #9C8870;
+  }
+  
+  .meios-contato, .info, .outros {
+    text-align: center;
+  }
+  
+  .meios-contato p, .info p, .outros p {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .icone {
+    background-color: #9C8870;
+    width: 1.8vw;
+  }
+
+  .cs {
+    background-color: #9C8870;
+  }
+  
+  .sa {
+    background-color: #9C8870;
+  }

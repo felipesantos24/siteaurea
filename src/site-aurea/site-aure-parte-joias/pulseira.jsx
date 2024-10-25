@@ -9,7 +9,7 @@ export default function Pulseiras() {
             <div className='parte1'>
             <div className='cards2'>
                 <div><p className='texto22'>
-                    <img className='imaggg' src="anell.jpg" alt="" /><br />
+                    <img className='imaggg' src="puls1.jpg" alt="" /><br />
                     PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
                     R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
                     R$ 340,00        </p>
@@ -17,7 +17,7 @@ export default function Pulseiras() {
             </div>
             <div className='cards2'>
                 <div><p className='texto22'>
-                    <img className='imaggg' src="anell.jpg" alt="" /><br />
+                    <img className='imaggg' src="puls2.jpg" alt="" /><br />
                     PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
                     R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
                     R$ 340,00        </p>
@@ -25,7 +25,7 @@ export default function Pulseiras() {
             </div>
             <div className='cards2'>
                 <div><p className='texto22'>
-                    <img className='imaggg' src="anell.jpg" alt="" /><br />
+                    <img className='imaggg' src="puls3.jpg" alt="" /><br />
                     PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
                     R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
                     R$ 340,00        </p>
@@ -36,7 +36,7 @@ export default function Pulseiras() {
             <div className='parte2'>
                 <div className='cards2'>
                 <div><p className='texto22'>
-                    <img className='imaggg' src="anell.jpg" alt="" /><br />
+                    <img className='imaggg' src="puls4.jpg" alt="" /><br />
                     PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
                     R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
                     R$ 340,00        </p>
@@ -44,7 +44,7 @@ export default function Pulseiras() {
             </div>
             <div className='cards2'>
                 <div><p className='texto22'>
-                    <img className='imaggg' src="anell.jpg" alt="" /><br />
+                    <img className='imaggg' src="puls5.jpg" alt="" /><br />
                     PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
                     R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
                     R$ 340,00        </p>
@@ -52,7 +52,7 @@ export default function Pulseiras() {
         </div>
         <div className='cards2'>
                 <div><p className='texto22'>
-                    <img className='imaggg' src="anell.jpg" alt="" /><br />
+                    <img className='imaggg' src="puls6.jpg" alt="" /><br />
                     PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
                     R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
                     R$ 340,00        </p>

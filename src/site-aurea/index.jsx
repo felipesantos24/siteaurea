@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Carousel from './components/carroseu';
+import App from './components/rodape';
 
 import './index.scss';
 
@@ -51,27 +52,27 @@ export default function Aurea() {
 
             </div>
         </div>
-        <img className='maos1' src="maos1.png" alt="" />
+        <img className='maos1' src="venda-de-joias.png" alt="" />
 
         <h1 className='categoriah1'>Categoria</h1>
         <h2 className='categoriah2'>encontre a sua favorita</h2>
         <div className='categoria'>
         <div className='categorias'>
         <Link to="/anel" className='categoriaanel'>
-    <img className='imagg' src="anel.jpg" alt="" />
-    <p className='textoanel'>aneis</p>
+    <p className='textoanel'>Aneis</p> <br />
+    <img className='imagg2' src="aneln4.jpg" alt="" />
         </Link>
         <Link to="/pulseira" className='categoriapulseira'>
-    <img className='imagg' src="anel.jpg" alt="" />
-    <p className='textoanel'>pulseiras</p>
+    <p className='textoanel'>Pulseiras</p> <br />
+    <img className='imagg2' src="puls7.jpg" alt="" />
         </Link>
         <Link to="/brincos" className='categoriabrincos'>
-    <img className='imagg' src="anel.jpg" alt="" />
-    <p className='textoanel'>brincos</p>
+    <p className='textoanel'>Brincos</p> <br />
+    <img className='imagg3' src="brinco7.jpg" alt="" />
         </Link>
         <Link to="/colar" className='categoriacolar'>
-    <img className='imagg' src="anel.jpg" alt="" />
-    <p className='textoanel'>colares</p>
+    <p className='textoanel'>Colares</p> <br />
+    <img className='imagg4' src="cor7.jpg" alt="" />
         </Link>
         </div>
         </div>
@@ -110,6 +111,9 @@ export default function Aurea() {
     </div>
 </div>
         </div>
+    <div>
+        <App />
+    </div>
     </div>
     );
 }
