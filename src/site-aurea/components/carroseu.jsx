@@ -5,7 +5,7 @@ import './carroseu.scss'
 
 const Carousel = () => {
     const slides = [
-        { id: 1, img: 'fin.jpg', caption: 'Imagem 1' },
+        { id: 1, img: 'mulherjoias.jpg', caption: 'Imagem 1' },
         { id: 2, img: 'pescoa.png', caption: 'Imagem 2' },
         { id: 3, img: 'bracossa.png', caption: 'Imagem 3' },
     ];

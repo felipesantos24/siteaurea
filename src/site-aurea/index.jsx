@@ -21,6 +21,8 @@ export default function Aurea() {
         <div className='maisvendidos'>
             <h1 className='fl'>Mais Vendidos</h1>
             <img className='setabaixo' src="setabaixo.png" alt="" />
+            <div className='cardschefe'>
+            
             <div className='cards'>
                 <div><p className='texto'>
                 <img className='imag'  src="anel1.png" alt="" />
@@ -50,6 +52,7 @@ export default function Aurea() {
                     </p>
                 </div>
 
+            </div>
             </div>
         </div>
         <img className='maos1' src="venda-de-joias.png" alt="" />
