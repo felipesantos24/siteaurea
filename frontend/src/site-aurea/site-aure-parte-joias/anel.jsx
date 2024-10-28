@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Cabecario from '../components/cabecario';
 import Rodape from '../components/rodape';
 
@@ -11,6 +12,7 @@ export default function Anel() {
         <div className='cabecario'>
             <Cabecario />
         </div>
+        <Link to='/'><h1>Voltar</h1></Link>
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
