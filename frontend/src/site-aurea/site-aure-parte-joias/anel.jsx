@@ -1,10 +1,16 @@
 import React from 'react';
+import Cabecario from '../components/cabecario';
+import Rodape from '../components/rodape';
 
 import './anel.scss';
 
 export default function Anel() {
 
     return (
+<div className='todo'>
+        <div className='cabecario'>
+            <Cabecario />
+        </div>
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
@@ -58,8 +64,11 @@ export default function Anel() {
                     R$ 340,00        </p>
                 </div> 
         </div>
-        </div>
-        </div>
-
+    </div>
+    </div> <br /> <br /> <br /> <br />
+    <div className='rodape'>
+        <Rodape />
+    </div>
+</div>
     );
 }

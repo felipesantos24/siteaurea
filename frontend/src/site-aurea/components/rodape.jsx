@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './rodape.scss';
 
-export default function App() {
+export default function Rodape() {
 return (
 <div class="container">
   <div class="meios-contato"  className='cs'>

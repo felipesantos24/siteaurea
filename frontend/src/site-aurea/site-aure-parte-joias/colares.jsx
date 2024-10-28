@@ -1,10 +1,16 @@
 import React from 'react';
+import Cabecario from '../components/cabecario';
+import Rodape from '../components/rodape';
 
 import './anel.scss';
 
 export default function Colares() {
 
     return (
+    <div className='todo'>
+         <div className='cabecario'>
+            <Cabecario />
+        </div>
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
@@ -59,7 +65,10 @@ export default function Colares() {
                 </div> 
         </div>
         </div>
-        </div>
-
+        </div><br /> <br /> <br /> <br />
+    <div className='rodape'>
+        <Rodape />
+    </div>
+</div>
     );
 }

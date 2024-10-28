@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Carousel from './components/carroseu';
 import App from './components/rodape';
+import Cabecario from './components/cabecario';
 
 import './index.scss';
 
@@ -9,11 +10,9 @@ export default function Aurea() {
 
     return (
     <div className='site todo'>
-        <header>
-            <div className='cabecario'>
-                <img className='auria' src="auria.png" alt="" />
-            </div>
-        </header>
+        <div className='cabecario'>
+            <Cabecario />
+        </div>
 
         <div className="carrosel">
             <Carousel />
