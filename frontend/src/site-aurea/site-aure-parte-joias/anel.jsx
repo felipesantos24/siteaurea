@@ -16,11 +16,13 @@ export default function Anel() {
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link to='/compra'>
+                    <p className='texto22'>
                     <img className='imaggg' src="aneln1.jpg" alt="" /><br />
                     PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
                     R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
                     R$ 340,00        </p>
+                    </Link>
                 </div>
             </div>
             <div className='cards2'>
