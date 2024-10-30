@@ -24,8 +24,11 @@ export default function Compra() {
         <div className="txt">
         <h1 className="tit">Anel de ouro misturado com prata</h1>
         <h2 className="disc">Fabricado pelos nossos melhores artesãos,<br />Feito com Ouro e uma camada de prata por cima<br />para destacar sua beleza e a beleza do anel</h2>
+        <h2 className="preco">R$ 1,990,00</h2>
+        <h4 className="precodesc">10x Sem Juros de R$ 199,00</h4>
         </div>
     </div>
+    <button className="compre">COMPRE JA!</button>
     <div className="rodape">
         <Rodape />
     </div>

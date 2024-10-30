@@ -9,7 +9,7 @@ import './index.scss';
 export default function Aurea() {
 
     return (
-    <div className='site todo'>
+    <div className='sitetodo'>
         <div className='cabecario'>
             <Cabecario />
         </div>

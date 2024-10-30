@@ -1,6 +1,6 @@
 .partedecima{
     padding: 0px 80px;
-    margin-top: 20px;
+    margin-top: 1vh;
     display: flex;
     gap: 550px;
 }
@@ -44,6 +44,26 @@
     width: 400px;
     margin-top: 50px;
     margin-left: 110px;
+}
+
+.preco {
+    margin-top: 5vh;
+    margin-left: 17vw;
+}
+
+.precodesc {
+    margin-left: 14vw;
+}
+
+.compre {
+    width: 25vw;
+    height: 4vh;
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 12vw;
+    background-color: #9C8870;
+    color: white;
+    font-size: large;
 }
 
 

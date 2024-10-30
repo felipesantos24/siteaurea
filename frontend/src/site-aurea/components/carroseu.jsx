@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
-
-import './carroseu.scss'
-
+import React, { useState, useEffect } from 'react';
+import './carroseu.scss';
 
 const Carousel = () => {
     const slides = [
@@ -16,17 +14,26 @@ const Carousel = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
     };
 
-    const prevSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
-    };
+    useEffect(() => {
+        const interval = setInterval(() => {
+            nextSlide();
+        }, 3000);
+
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <div className="carousel">
-            <div className="carousel-button" onClick={prevSlide}>❮</div>
             <div className="carousel-slide">
-                <img src={slides[currentIndex].img} alt={slides[currentIndex].caption} />
+                {slides.map((slide, index) => (
+                    <img
+                        key={slide.id}
+                        src={slide.img}
+                        alt={slide.caption}
+                        className={`carousel-image ${index === currentIndex ? 'active' : ''}`}
+                    />
+                ))}
             </div>
-            <div className="carousel-button" onClick={nextSlide}>❯</div>
         </div>
     );
 };
