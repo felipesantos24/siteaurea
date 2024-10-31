@@ -21,34 +21,36 @@ export default function Aurea() {
             <h1 className='fl'>Mais Vendidos</h1>
             <img className='setabaixo' src="setabaixo.png" alt="" />
             <div className='cardschefe'>
-            
             <div className='cards'>
-                <div><p className='texto'>
-                <img className='imag'  src="anel1.png" alt="" />
-                    Anel Aço Preto
+                <div><Link className='likm' to='/anel'>
+                    <p className='texto'>
+                <img className='imag'  src="aneln4.jpg" alt="" />
+                    Anel de Diamante
                     <br />
-                    ̶R̶$̶ ̶4̶1̶5̶,̶0̶0̶
                     <br />
-                    R$ 352,75
+                    R$ 4,500,00
                     </p>
+                    </Link>
                 </div>
-                <div><p className='texto2'>
-                <img className='imag'  src="colar.png" alt="" />
-                    Pulseiradeprata
+                <div><Link className='likm' to='/colar'>
+                    <p className='texto2'>
+                <img className='imag'  src="cor3.jpg" alt="" />
+                    Colar de Prata
                     <br />
-                    R̶$ ̶ ̶̶̶7̶̶5̶̶̶0̶̶̶,̶̶̶0̶̶̶0̶̶̶
                     <br />
-                    R$637,50
+                    R$ 4,200,00
                     </p>
+                    </Link>
                 </div>
-                <div><p className='texto3'>
-                <img className='imag'  src="pulseira.png" alt="" />
-                    Colar de aço
+                <div><Link className='likm' to='/pulseira'>
+                    <p className='texto3'>
+                <img className='imag'  src="puls4.jpg" alt="" />
+                    Pulseira de Prata
                     <br />
-                    ̶R̶$ ̶ ̶̶̶̶̶1̶3̶1̶̶̶5̶̶̶,̶̶̶0̶̶̶0̶̶̶
                     <br />
-                    R$ 1117,75
+                    R$ 6,999,99
                     </p>
+                    </Link>
                 </div>
 
             </div>
@@ -56,8 +58,8 @@ export default function Aurea() {
         </div>
         <img className='maos1' src="venda-de-joias.png" alt="" />
 
-        <h1 className='categoriah1'>Categoria</h1>
-        <h2 className='categoriah2'>encontre a sua favorita</h2>
+        <h1 className='categoriah1'>Categorias</h1>
+        <h2 className='categoriah2'>Encontre a sua favorita</h2>
         <div className='categoria'>
         <div className='categorias'>
         <Link to="/anel" className='categoriaanel'>
@@ -94,7 +96,7 @@ export default function Aurea() {
             <br /><br /><br />
 <div className='caixacoment'>
     <div className='comentariossd'>
-        <input className='inputsss' placeholder='🔎 Comente Aqui'></input>
+        <input className='inputsss' placeholder=' 🔎 Comente Aqui'></input>
         <button className='buttton'>Enviar</button>
     </div>
     <div className='comentarios'>

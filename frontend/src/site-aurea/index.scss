@@ -8,42 +8,43 @@
   display: flex;
   height: 500px;
   width: 250px;
+  gap: 5vw;
   border-radius: 30px;
-  margin-left: 250px;
+  margin-left: 8vw;
   background-color: #97796F;
   margin-top: 30px;
 
   
-  }
-
-
-
-.texto{
-display: flex;
-flex-direction: column;
-padding: 50px;
-font-size: x-large;
-border-radius: 30px;
-margin-left: 10px;
-background-color: #97796F;
-.imag {
-  height: 21vh;
+}
+  .texto{
+    margin-left: 3vw;
+    display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-size: x-large;
   border-radius: 30px;
-  width: 10vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #97796F;
+    .imag {
+      margin-bottom: 1vh;
+      height: 21vh;
+      width: auto;
+      border-radius: 30px;
+  
+    }
 }
-}
-
 .texto2{
   display: flex;
 flex-direction: column;
 padding: 50px;
 font-size: x-large;
 border-radius: 30px;
-margin-left: 100px;
 align-items: center;
 justify-content: center;
 background-color: #97796F;
   .imag {
+    margin-bottom: 1vh;
     height: 21vh;
     width: auto;
     border-radius: 30px;
@@ -56,15 +57,17 @@ flex-direction: column;
 padding: 50px;
 font-size: x-large;
 border-radius: 30px;
-margin-left: 100px;
+align-items: center;
+justify-content: center;
 background-color: #97796F;
   .imag {
+    margin-bottom: 1vh;
     height: 21vh;
+    width: auto;
     border-radius: 30px;
- 
+
   }
 }
-
 
 .fl{
 font-size: xxx-large;
@@ -76,7 +79,7 @@ justify-content: center;
 
 .setabaixo{
  display: flex;
- margin-left: 720px;
+ margin-left: 48vw;
  height: 35px;
 width: 35px;
 }
@@ -114,8 +117,8 @@ margin-top: 40px;
   outline: none;
   text-decoration: none;
   background-color: transparent;
+  transition: transform 1s;
   cursor: pointer;
-  transition: margin-top 2s;
   .imagg2 {
     border-radius: 20px;
     margin-left: 10px;
@@ -127,14 +130,14 @@ margin-top: 40px;
 }
 
 .categoriapulseira {
-display: flex;
+  display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 12vw;
 outline: none;
 text-decoration: none;
-background-color: transparent;
+transition: transform 1s;
 cursor: pointer;
 .imagg2 {
   margin-left: 10px;
@@ -154,6 +157,7 @@ align-items: center;
 width: 12vw;
 outline: none;
 text-decoration: none;
+transition: transform 1s;
 cursor: pointer;
 .imagg3 {
   margin-left: 10px;
@@ -166,28 +170,40 @@ cursor: pointer;
 }
 
 .categoriacolar {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 12vw;
-outline: none;
-text-decoration: none;
-transition: background-color 2s 500ms;
-.imagg4 {
-  margin-left: 10px;
-  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 12vw;
+  outline: none;
+  transition: transform 1s;
+  text-decoration: none;
+  .imagg4 {
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 12vw;
 }
 .textoanel {
   text-align: center;
 }
 }
 
+.categoriaanel:hover {
+    transform: scale(1.1,1.1);
+}
+.categoriabrincos:hover {
+  transform: scale(1.1,1.1);
+}
+.categoriacolar:hover {
+  transform: scale(1.1,1.1);
+}
+.categoriapulseira:hover {
+  transform: scale(1.1,1.1);
+}
 
 .categoriah1{
-font-size: xxx-large;
- display: flex;
+  font-size: xxx-large;
+  display: flex;
 align-items: center;
 justify-content: center;
 }
@@ -213,11 +229,11 @@ align-items: center;
    display: flex;
   margin-left: 150px;
   flex-direction: row;
-  gap: 130px
+  gap: 15vw;
 } 
 
 .maocara {
-  width: 18vw;
+  width: 20vw;
   height: auto;
   border-radius: 20px;
 }
@@ -238,10 +254,11 @@ align-items: center;
 }
 
 .inputsss {
+margin-top: 5vh;
 border-radius: 80px;
 background-color: white;
-width: 13vw;
-height: 7vh;
+width: 18vw;
+height: 5vh;
 }
 
 .comentariossd {
@@ -252,14 +269,13 @@ height: 7vh;
 }
 
 .buttton {
-
   align-self: flex-start;
   border-radius: 30px;
   width: 5vw;
-  margin-top: 10px;
-  height: 6vh;
+  margin-top: 0.5vh;
+  height: 4vh;
   background-color: lightgray;
-  margin-left: 120px;
+  margin-left: 13.5vw;
 }
 
 

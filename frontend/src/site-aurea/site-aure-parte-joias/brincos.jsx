@@ -13,57 +13,73 @@ export default function Brincos() {
         <div className='cabecario'>
             <Cabecario />
         </div>
+        <Link className='voltar' to='/'><h1>↩ Voltar</h1></Link>
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link className='likm' to='/compra7'>
+                    <p className='texto22'>
                     <img className='imaggg' src="brinco1.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    BRINCO ARGOLA LINE EM PRATA 925         <br /><br /><br /><br />
+                         <br />
+                    R$ 190,00        </p>
+                    </Link>
+                    <br />
+                    <br />
+                    <br />
                 </div>
             </div>
             <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link className='likm' to='/compra8'>
+                    <p className='texto22'>
                     <img className='imaggg' src="brinco2.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    BRINCO GLEE EM PRATA COM AMETISTA ROXA E TOPAZIOS INCOLORES         <br /><br />
+                           <br />
+                    R$ 330,00        </p>
+                    </Link>
                 </div>
             </div>
             <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link className='likm' to='/compra9'>
+                    <p className='texto22'>
                     <img className='imaggg' src="brinco3.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    BRINCO COLOR EM PRATA 925 COM TOPAZIO SWISS E TURMALINA VERDE         <br /><br />
+                        <br />
+                    R$ 390,00        </p>
+                    </Link>
                 </div>
             </div>
             </div>
             
             <div className='parte2'>
                 <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link className='likm' to='/compra10'>
+                    <p className='texto22'>
                     <img className='imaggg' src="brinco4.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    BRINCO EM PRATA 925 COM PEROLA E TOPAZIOS INCOLORES        <br /><br /><br />
+                   <br />
+                    R$ 890,00        </p>
+                    </Link>
                 </div>
             </div>
             <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link className='likm' to='/compra11'>
+                    <p className='texto22'>
                     <img className='imaggg' src="brinco5.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    BRINCO DENGOSA EM OURO AMARELO 18K COM ESMERALDA E DIAMANTES        <br /><br />
+              <br />
+                    R$ 4,840,00        </p>
+                    </Link>
                 </div>
         </div>
         <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link className='likm' to='/compra12'>
+                    <p className='texto22'>
                     <img className='imaggg' src="brinco6.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    BRINCO CLASSICO EM OURO BRANCO 18K COM ESMERALDA E DIAMANTES     <br /><br />
+       <br />
+                    R$ 20,000,00        </p>
+                    </Link>
                 </div> 
         </div>
         </div>

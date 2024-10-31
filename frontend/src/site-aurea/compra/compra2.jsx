@@ -6,7 +6,7 @@ import Rodape from "../components/rodape.jsx";
 import './compra.scss'
 import Botao from "../components/botaocompra.jsx";
 
-export default function Compra() {
+export default function Compra2() {
     return (
 <div className="tudo">
     <div className="cabecario">
@@ -14,16 +14,16 @@ export default function Compra() {
     </div>
 <div className="partedecima">
     <div className="direcao">
-        <Link className="links" to='/'><h2>Home</h2></Link><h2>→</h2><Link className="links" to='/anel'><h2>Aneis</h2></Link><h2>→</h2><h2>Anel essence</h2>
+        <Link className="links" to='/'><h2>Home</h2></Link><h2>→</h2><Link className="links" to='/anel'><h2>Aneis</h2></Link><h2>→</h2><h2>Anel mykonos</h2>
     </div>
 </div>
     <div className="site">
-        <img className="foto" src="aneln1.jpg" alt="" />
+        <img className="foto" src="aneln6.jpg" alt="" />
         <div className="txt">
         <Link className="colecao" to='/anel'><h3 className="tits">Coleção aneis</h3></Link>
-        <h1 className="tit">Anel essence ouro amarelo ouro branco</h1>
+        <h1 className="tit">anel mykonos em prata com ouro amarelo</h1>
         <h2 className="disc">Cód : AN00053511 <br />
-Coleção : Essence <br />
+Coleção : Mykonos <br />
 Largura aprox. : 14 mm <br />
 Material : Prata com Ouro <br /></h2>
         <h2 className="preco">R$ 5,690,00</h2>

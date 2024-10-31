@@ -22,8 +22,9 @@
     border-radius: 20px;
 }
 
+
 .txt{
-    margin-top: 50px;
+    margin-top: 6vh;
 }
 
 .site{
@@ -31,19 +32,21 @@
 }
 
 .tit{
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    text-align: center;
 }
 .disc{
     text-align: center;
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-top: 3vh;
+    margin-left: 5vw;
 }
 
 .foto {
-    width: 400px;
-    margin-top: 50px;
-    margin-left: 110px;
+    width: 30vw;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-left: 10vw;
 }
 
 .preco {
@@ -55,12 +58,17 @@
     margin-left: 14vw;
 }
 
+.tits {
+    margin-left: 4vw;
+    color: black;
+}
+
 .compre {
     width: 25vw;
     height: 4vh;
     text-align: center;
-    margin-top: 2vh;
-    margin-left: 12vw;
+    margin-top: 1vh;
+    margin-left: 13vw;
     background-color: #9C8870;
     color: white;
     font-size: large;
@@ -68,5 +76,5 @@
 
 
 .rodape {
-    margin-top: 149px;
+    margin-top: 18vh;
 }

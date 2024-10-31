@@ -12,60 +12,64 @@ export default function Anel() {
         <div className='cabecario'>
             <Cabecario />
         </div>
-        <Link to='/'><h1>Voltar</h1></Link>
+        <Link className='voltar' to='/'><h1>↩ Voltar</h1></Link>
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
-                <div><Link to='/compra'>
+                <div><Link className='likm' to='/compra'>
                     <p className='texto22'>
                     <img className='imaggg' src="aneln1.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    ANEL ESSENCE OURO AMERELO OURO BRANCO<br /><br /><br />
+                    R$ 5,690,00        </p>
                     </Link>
                 </div>
             </div>
             <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link className='likm' to='/compra2'>
+                    <p className='texto22'>
                     <img className='imaggg' src="aneln6.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    ANEL MYKONOS EM PRATA 925 COM OURO AMARELO 18K<br /><br /><br />
+                    R$ 4,190,00        </p>
+                    </Link>
                 </div>
             </div>
             <div className='cards2'>
-                <div><p className='texto22'>
+                <div><Link className='likm' to='/compra3'>
+                    <p className='texto22'>
                     <img className='imaggg' src="aneln7.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                    ANEL MYKONOS EM PRATA 925 COM OURO AMARELO 18K E DIAMANTE<br />      <br />
+                    R$ 3,650,00        </p>
+                    </Link>
                 </div>
             </div>
             </div>
             
             <div className='parte2'>
                 <div className='cards2'>
-                <div><p className='texto22'>
-                    <img className='imaggg' src="aneln5.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                <div><Link className='likm' to='/compra4'>
+                    <p className='texto22'>
+                    <img className='imaggg' src="aneln2.jpg" alt="" /><br />
+                    MEIA ALIANÇA JAZZ EM OURO BRANCO 18K COM DIAMANTES<br /> <br /><br />
+                    R$ 9,850,00        </p>
+                    </Link>
                 </div>
             </div>
             <div className='cards2'>
-                <div><p className='texto22'>
-                    <img className='imaggg' src="aneln2.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                <div><Link className='likm' to='/compra5'>
+                    <p className='texto22'>
+                    <img className='imaggg' src="aneln3.jpg" alt="" /><br />
+                    ANEL KYRA EM OURO BRANCO 18K COM DIAMANTES<br /><br /><br />
+                    R$ 11,390,00        </p>
+                    </Link>
                 </div>
         </div>
         <div className='cards2'>
-                <div><p className='texto22'>
-                    <img className='imaggg' src="aneln3.jpg" alt="" /><br />
-                    PULSEIRA   RETANGULAR CRAVEJADA FOLEADA A OURO 18K         <br /><br />
-                    R$  ̶ ̶4̶0̶0̶,̶0̶0̶        <br />
-                    R$ 340,00        </p>
+                <div><Link className='likm' to='/compra6'>
+                    <p className='texto22'>
+                    <img className='imaggg' src="aneln5.jpg" alt="" /><br />
+                    ANEL KYRA COM OURO BRANCO 18K CRAVEJADO COM DIAMANTES<br />      <br />
+                    R$ 13,900,00        </p>
+                    </Link>
                 </div> 
         </div>
     </div>
