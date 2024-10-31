@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Cabecario from '../components/cabecario.jsx'
 import Rodape from "../components/rodape.jsx";
+import Botao from "../components/botaocompra.jsx";
 
 import './compra.scss'
-import Botao from "../components/botaocompra.jsx";
 
 export default function Compra2() {
     return (

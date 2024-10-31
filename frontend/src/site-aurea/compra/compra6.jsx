@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Cabecario from '../components/cabecario.jsx'
 import Rodape from "../components/rodape.jsx";
-
+import Botao from "../components/botaocompra.jsx";
 import './compra.scss'
 
 export default function Compra6() {
@@ -26,7 +26,9 @@ export default function Compra6() {
         <h4 className="precodesc">10x Sem Juros de R$ 569,00</h4>
         </div>
     </div>
-    <button className="compre">COMPRE JA!</button>
+    <div className="botao">
+        <Botao />
+    </div>
     <div className="rodape">
         <Rodape />
     </div>
