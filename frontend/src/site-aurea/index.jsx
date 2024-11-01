@@ -20,19 +20,18 @@ export default function Aurea() {
         <div className='maisvendidos'>
             <h1 className='fl'>Mais Vendidos</h1>
             <img className='setabaixo' src="setabaixo.png" alt="" />
-            <div className='cardschefe'>
             <div className='cards'>
-                <div><Link className='likm' to='/anel'>
+                <div><Link className='likm' to='/login'>
                     <p className='texto'>
-                <img className='imag'  src="aneln4.jpg" alt="" />
-                    Anel de Diamante
+                <img className='imag'  src="aneln2.jpg" alt="" />
+                meia aliança jazz
                     <br />
                     <br />
-                    R$ 4,500,00
+                    R$ 9,850,00  
                     </p>
                     </Link>
                 </div>
-                <div><Link className='likm' to='/colar'>
+                <div><Link className='likm' to='/compra16'>
                     <p className='texto2'>
                 <img className='imag'  src="cor3.jpg" alt="" />
                     Colar de Prata
@@ -42,7 +41,7 @@ export default function Aurea() {
                     </p>
                     </Link>
                 </div>
-                <div><Link className='likm' to='/pulseira'>
+                <div><Link className='likm' to='/compra22'>
                     <p className='texto3'>
                 <img className='imag'  src="puls4.jpg" alt="" />
                     Pulseira de Prata
@@ -53,7 +52,6 @@ export default function Aurea() {
                     </Link>
                 </div>
 
-            </div>
             </div>
         </div>
         <img className='maos1' src="venda-de-joias.png" alt="" />

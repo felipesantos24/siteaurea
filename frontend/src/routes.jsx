@@ -28,6 +28,9 @@ import Compra21 from './site-aurea/compra/compra21.jsx';
 import Compra22 from './site-aurea/compra/compra22.jsx';
 import Compra23 from './site-aurea/compra/compra23.jsx';
 import Compra24 from './site-aurea/compra/compra24.jsx';
+import Login from './site-aurea/components/loginadm.jsx';
+
+
 
 export function Navigation() {
     return (
@@ -39,6 +42,7 @@ export function Navigation() {
                 <Route path='/pulseira' element={<Pulseiras />} />
                 <Route path='/colar' element={<Colares />} />
                 <Route path='/compra' element={<Compra />} />
+                <Route path='/login' element={<Login />} />
                 <Route path='/compra2' element={<Compra2 />} />
                 <Route path='/compra3' element={<Compra3 />} />
                 <Route path='/compra4' element={<Compra4 />} />

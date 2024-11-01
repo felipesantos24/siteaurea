@@ -1,6 +1,9 @@
 *{
   margin: 0;
-  background-color: #e2d7d2;
+}
+
+.sitetodo {
+background-color: #E6E1DE;
 }
 
 .cards {
@@ -11,7 +14,6 @@
   gap: 5vw;
   border-radius: 30px;
   margin-left: 8vw;
-  background-color: #97796F;
   margin-top: 30px;
 
   
@@ -28,8 +30,8 @@
   background-color: #97796F;
     .imag {
       margin-bottom: 1vh;
-      height: 21vh;
-      width: auto;
+      height: 30vh;
+      width: 15vw;
       border-radius: 30px;
   
     }
@@ -45,8 +47,8 @@ justify-content: center;
 background-color: #97796F;
   .imag {
     margin-bottom: 1vh;
-    height: 21vh;
-    width: auto;
+    height: 30vh;
+    width: 15vw;
     border-radius: 30px;
 
   }
@@ -62,7 +64,7 @@ justify-content: center;
 background-color: #97796F;
   .imag {
     margin-bottom: 1vh;
-    height: 21vh;
+    height: 30vh;
     width: auto;
     border-radius: 30px;
 

@@ -4,7 +4,7 @@ import './rodape.scss';
 
 export default function Rodape() {
 return (
-<div class="container">
+<div class="containerssd">
   <div class="meios-contato"  className='cs'>
     <p className='sa'>MEIOS DE CONTATO :</p>
     <p className='sa'><img className='icone' src="instagramk.png" alt="" /> INSTAGRAM</p>

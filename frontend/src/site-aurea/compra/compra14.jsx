@@ -22,8 +22,8 @@ export default function Compra14() {
         <Link className="colecao" to='/colar'><h3 className="tits">Coleção Colares</h3></Link>
         <h1 className="tit">colar religioso estrela de davi em ouro amarelo <br /> com topazios incolores</h1>
         <h2 className="disc">Fabricado pelos nossos melhores artesãos,<br />Feito com ouro amarelo e uma camada de ouro branco<br />por cimapara destacar sua beleza e a beleza do anel</h2>
-        <h2 className="preco">R$ 5,690,00</h2>
-        <h4 className="precodesc">10x Sem Juros de R$ 569,00</h4>
+        <h2 className="preco">R$ 4.950,00</h2>
+        <h4 className="precodesc">10x Sem Juros de R$ 495,00</h4>
         </div>
     </div>
     <div className="botao">

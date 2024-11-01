@@ -22,8 +22,8 @@ export default function Compra13() {
         <Link className="colecao" to='/colar'><h3 className="tits">Coleção Colares</h3></Link>
         <h1 className="tit">colar icona em ouro amarelo<br /> com turmalina  verde e diamanates </h1>
         <h2 className="disc">Fabricado pelos nossos melhores artesãos,<br />Feito com ouro amarelo e uma camada de ouro branco<br />por cimapara destacar sua beleza e a beleza do anel</h2>
-        <h2 className="preco">R$ 5,690,00</h2>
-        <h4 className="precodesc">10x Sem Juros de R$ 569,00</h4>
+        <h2 className="preco">R$ 9.450,00</h2>
+        <h4 className="precodesc">10x Sem Juros de R$ 945,00</h4>
         </div>
     </div>
     <div className="botao">
