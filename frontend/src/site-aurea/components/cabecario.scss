@@ -1,10 +1,16 @@
 .cabecario {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 37vw;
       background-color: #9C8870;
       .auria {
+          margin-left: 45vw;
           display: flex;
           width: 8VW;
-        } 
       }
+      .adm {
+        text-decoration: none;
+        color: black;
+      }
+}
