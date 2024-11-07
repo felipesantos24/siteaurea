@@ -55,8 +55,9 @@ export default function Aurea() {
             </div>
             
         </div>
-
-        <img className='maos1' src="venda-de-joias.png" alt="" />
+        <div className='maos1'>
+        <img className='maosss' src="venda-de-joias.png" alt="" />
+        </div>
         <div className='grid'>
         <h1 className='categoriah1'>Categorias</h1>
         <h2 className='categoriah2'>Encontre a sua favorita</h2>
