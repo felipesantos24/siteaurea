@@ -21,7 +21,7 @@ export default function Aurea() {
             <h1 className='fl'>Mais Vendidos</h1>
             <img className='setabaixo' src="setabaixo.png" alt="" />
             <div className='cards'>
-                <div><Link className='likm' to='/login'>
+                <div><Link className='likm' to='/Compra4'>
                     <p className='texto'>
                 <img className='imag'  src="aneln2.jpg" alt="" />
                 meia aliança jazz
