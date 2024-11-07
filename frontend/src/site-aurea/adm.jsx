@@ -14,27 +14,21 @@ export default function Aureaadm() {
     </div>
     <div className='cardsm'>
            <div><Link className='likm' to='/Compra4'>
-                <p className='textom'>
                 <img className='imagm'  src="images.png" alt="" />
                 <br />
                 Adicionar
-                </p>
                 </Link>
            </div>
            <div><Link className='likm' to='/Compra4'>
-                <p className='textom'>
                 <img className='imagm'  src="remove.png" alt="" />
                 <br />
-                Adicionar
-                </p>
+                Remover
                 </Link>
            </div>
            <div><Link className='likm' to='/Compra4'>
-                <p className='textom'>
-                <img className='imagm'  src="images.png" alt="" />
+                <img className='imagm'  src="editar.png" alt="" />
                 <br />
-                Adicionar
-                </p>
+                Editar
                 </Link>
            </div>
     </div>
