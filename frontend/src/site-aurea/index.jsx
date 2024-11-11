@@ -118,7 +118,7 @@ export default function Aurea() {
 </div>
         </div>
     <div>
-        <App />
+        <App className='rodapesdddd' />
     </div>
     </div>
     );

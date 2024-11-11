@@ -13,20 +13,20 @@ export default function Aureaadm() {
         <Cabecarioadm />
     </div>
     <div className='cardsm'>
-           <div><Link className='likm' to='/Compra4'>
+           <div><Link className='likmm' to='/Compra4'>
                 <img className='imagm'  src="images.png" alt="" />
                 <br />
                 Adicionar
                 </Link>
            </div>
-           <div><Link className='likm' to='/Compra4'>
+           <div><Link className='likmm' to='/Compra4'>
                 <img className='imagm'  src="remove.png" alt="" />
                 <br />
                 Remover
                 </Link>
            </div>
-           <div><Link className='likm' to='/Compra4'>
-                <img className='imagm'  src="editar.png" alt="" />
+           <div><Link className='likmm' to='/Compra4'>
+                <img className='imagm' src="editar.png" alt="" />
                 <br />
                 Editar
                 </Link>
