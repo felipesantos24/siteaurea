@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
-import Aurea from './site-aurea/index.jsx';
+import Aurea from './site-aurea/site-normal/index.jsx';
 import Anel from './site-aurea/site-aure-parte-joias/anel.jsx'
 import Brincos from './site-aurea/site-aure-parte-joias/brincos.jsx'
 import Pulseiras from './site-aurea/site-aure-parte-joias/pulseira.jsx';
@@ -29,7 +29,7 @@ import Compra22 from './site-aurea/compra/compra22.jsx';
 import Compra23 from './site-aurea/compra/compra23.jsx';
 import Compra24 from './site-aurea/compra/compra24.jsx';
 import Login from './site-aurea/components/loginadm.jsx';
-import Aureaadm from './site-aurea/adm.jsx'
+import Aureaadm from './site-aurea/site-adm/adm.jsx'
 
 
 export function Navigation() {

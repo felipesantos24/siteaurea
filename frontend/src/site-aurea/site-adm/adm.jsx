@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import App from './components/rodape';
-import Cabecarioadm from './components/cabecarioadm';
+import App from '../components/rodape';
+import Cabecarioadm from '../components/cabecarioadm';
 
 import './adm.scss';
 

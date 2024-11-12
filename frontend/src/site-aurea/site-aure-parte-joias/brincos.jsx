@@ -17,7 +17,7 @@ export default function Brincos() {
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra7'>
+                <div><Link className='likkm' to='/compra7'>
                     <p className='texto22'>
                     <img className='imaggg' src="brinco1.jpg" alt="" /><br />
                     BRINCO ARGOLA LINE EM PRATA 925         <br /><br /><br /><br />
@@ -30,7 +30,7 @@ export default function Brincos() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra8'>
+                <div><Link className='likkm' to='/compra8'>
                     <p className='texto22'>
                     <img className='imaggg' src="brinco2.jpg" alt="" /><br />
                     BRINCO GLEE EM PRATA COM AMETISTA ROXA E TOPAZIOS INCOLORES         <br /><br />
@@ -40,7 +40,7 @@ export default function Brincos() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra9'>
+                <div><Link className='likkm' to='/compra9'>
                     <p className='texto22'>
                     <img className='imaggg' src="brinco3.jpg" alt="" /><br />
                     BRINCO COLOR EM PRATA 925 COM TOPAZIO SWISS E TURMALINA VERDE         <br /><br />
@@ -53,7 +53,7 @@ export default function Brincos() {
             
             <div className='parte2'>
                 <div className='cards2'>
-                <div><Link className='likm' to='/compra10'>
+                <div><Link className='likkm' to='/compra10'>
                     <p className='texto22'>
                     <img className='imaggg' src="brinco4.jpg" alt="" /><br />
                     BRINCO EM PRATA 925 COM PEROLA E TOPAZIOS INCOLORES        <br /><br /><br />
@@ -63,7 +63,7 @@ export default function Brincos() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra11'>
+                <div><Link className='likkm' to='/compra11'>
                     <p className='texto22'>
                     <img className='imaggg' src="brinco5.jpg" alt="" /><br />
                     BRINCO DENGOSA EM OURO AMARELO 18K COM ESMERALDA E DIAMANTES        <br /><br />
@@ -73,7 +73,7 @@ export default function Brincos() {
                 </div>
         </div>
         <div className='cards2'>
-                <div><Link className='likm' to='/compra12'>
+                <div><Link className='likkm' to='/compra12'>
                     <p className='texto22'>
                     <img className='imaggg' src="brinco6.jpg" alt="" /><br />
                     BRINCO CLASSICO EM OURO BRANCO 18K COM ESMERALDA E DIAMANTES     <br /><br />

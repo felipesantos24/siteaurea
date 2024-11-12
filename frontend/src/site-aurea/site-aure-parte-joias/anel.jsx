@@ -12,11 +12,11 @@ export default function Anel() {
         <div className='cabecario'>
             <Cabecario />
         </div>
-        <Link className='voltar' to='/'><h1>↩ Voltar</h1></Link>
+        <Link className='voltar' to='/'>Voltar aos conteudos</Link>
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra'>
+                <div className='nada'><Link className='likkm' to='/compra'>
                     <p className='texto22'>
                     <img className='imaggg' src="aneln1.jpg" alt="" /><br />
                     ANEL ESSENCE OURO AMERELO OURO BRANCO<br /><br /><br />
@@ -25,7 +25,7 @@ export default function Anel() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra2'>
+                <div><Link className='likkm' to='/compra2'>
                     <p className='texto22'>
                     <img className='imaggg' src="aneln6.jpg" alt="" /><br />
                     ANEL MYKONOS EM PRATA 925 COM OURO AMARELO 18K<br /><br /><br />
@@ -34,7 +34,7 @@ export default function Anel() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra3'>
+                <div><Link className='likkm' to='/compra3'>
                     <p className='texto22'>
                     <img className='imaggg' src="aneln7.jpg" alt="" /><br />
                     ANEL MYKONOS EM PRATA 925 COM OURO AMARELO 18K E DIAMANTE<br />      <br />
@@ -46,7 +46,7 @@ export default function Anel() {
             
             <div className='parte2'>
                 <div className='cards2'>
-                <div><Link className='likm' to='/compra4'>
+                <div><Link className='likkm' to='/compra4'>
                     <p className='texto22'>
                     <img className='imaggg' src="aneln2.jpg" alt="" /><br />
                     MEIA ALIANÇA JAZZ EM OURO BRANCO 18K COM DIAMANTES<br /> <br /><br />
@@ -55,7 +55,7 @@ export default function Anel() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra5'>
+                <div><Link className='likkm' to='/compra5'>
                     <p className='texto22'>
                     <img className='imaggg' src="aneln3.jpg" alt="" /><br />
                     ANEL KYRA EM OURO BRANCO 18K COM DIAMANTES<br /><br /><br />
@@ -64,7 +64,7 @@ export default function Anel() {
                 </div>
         </div>
         <div className='cards2'>
-                <div><Link className='likm' to='/compra6'>
+                <div><Link className='likkm' to='/compra6'>
                     <p className='texto22'>
                     <img className='imaggg' src="aneln5.jpg" alt="" /><br />
                     ANEL KYRA COM OURO BRANCO 18K CRAVEJADO COM DIAMANTES<br />      <br />

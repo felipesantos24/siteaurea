@@ -16,7 +16,7 @@ export default function Pulseiras() {
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra19'><p className='texto22'>
+                <div><Link className='likkm' to='/compra19'><p className='texto22'>
                     <img className='imaggg' src="puls1.jpg" alt="" /><br />
                     PULSEIRA REALI EM OURO BRANCO 18K COM TOPAZIO SKY E DIAMANTES        
                    <br /><br />
@@ -26,7 +26,7 @@ export default function Pulseiras() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra20'><p className='texto22'>
+                <div><Link className='likkm' to='/compra20'><p className='texto22'>
                     <img className='imaggg' src="puls2.jpg" alt="" /><br />
                     PULSEIRA RIVEIRA EM OURO BRANCO 18K COM DIAMANTES       <br /><br /><br />
          <br />
@@ -35,7 +35,7 @@ export default function Pulseiras() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra21'><p className='texto22'>
+                <div><Link className='likkm' to='/compra21'><p className='texto22'>
                     <img className='imaggg' src="puls3.jpg" alt="" /><br />
                     PULSEIRA ARPEGE EM OURO BRANCO 18K COM DIAMANTES           <br /><br /><br />
               <br />
@@ -47,7 +47,7 @@ export default function Pulseiras() {
             
             <div className='parte2'>
                 <div className='cards2'>
-                <div><Link className='likm' to='/compra22'><p className='texto22'>
+                <div><Link className='likkm' to='/compra22'><p className='texto22'>
                     <img className='imaggg' src="puls4.jpg" alt="" /><br />
                     PULSEIRA MYKONOS EM PRATA 925 COM OURO AMARELO 18K E DIAMANTES         <br /><br />
                       <br />
@@ -56,7 +56,7 @@ export default function Pulseiras() {
                 </div>
             </div>
             <div className='cards2'>
-                <div><Link className='likm' to='/compra23'><p className='texto22'>
+                <div><Link className='likkm' to='/compra23'><p className='texto22'>
                     <img className='imaggg' src="puls5.jpg" alt="" /><br />
                     PULSEIRA MYKONOS EM PRATA 925 COM OURO AMARELO 18K      <br /> <br /><br />
                      <br />
@@ -65,7 +65,7 @@ export default function Pulseiras() {
                 </div>
         </div>
         <div className='cards2'>
-                <div><Link className='likm' to='/compra24'><p className='texto22'>
+                <div><Link className='likkm' to='/compra24'><p className='texto22'>
                     <img className='imaggg' src="puls6.jpg" alt="" /><br />
                     PULSEIRA CORDA EM OURO AMARELO 18K        <br /><br /><br />
                           <br />

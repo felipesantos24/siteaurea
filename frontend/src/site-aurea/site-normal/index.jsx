@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Carousel from './components/carroseu';
-import App from './components/rodape';
-import Cabecario from './components/cabecario';
+import Carousel from '../components/carroseu';
+import App from '../components/rodape';
+import Cabecario from '../components/cabecario';
 
 import './index.scss';
 
