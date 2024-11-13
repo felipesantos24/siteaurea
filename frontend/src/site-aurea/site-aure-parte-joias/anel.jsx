@@ -12,7 +12,7 @@ export default function Anel() {
         <div className='cabecario'>
             <Cabecario />
         </div>
-        <Link className='voltar' to='/'>Voltar aos conteudos</Link>
+        <Link className='voltar' to='/'><h2>Voltar</h2></Link>
         <div className='cardsgeral'>
             <div className='parte1'>
             <div className='cards2'>
@@ -73,7 +73,7 @@ export default function Anel() {
                 </div> 
         </div>
     </div>
-    </div> <br /> <br /> <br /> <br />
+    </div>
     <div className='rodape'>
         <Rodape />
     </div>

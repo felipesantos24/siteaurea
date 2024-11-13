@@ -4,12 +4,13 @@
 
 .voltar {
     color: black;
-    padding: 35px 20px;
+    padding: 35px 10px;
 }
 
 .likkm {
     color: black;
 }
+
 
 .parte1 {
     display: flex;
@@ -28,7 +29,7 @@
  .cards2 {
      display: flex;
      justify-content: space-between; 
-     height: 60vh;
+     height: 45vh;
      width: 250px;
      margin-top: 30px;
      transition: transform 0.5s;
@@ -45,6 +46,7 @@
     flex-direction: column;
     padding: 50px;
     font-size:  large;
+    text-align: center;
     background-color: #97796F;
 
     .imaggg {
