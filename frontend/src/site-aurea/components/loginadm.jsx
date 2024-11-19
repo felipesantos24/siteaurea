@@ -1,9 +1,8 @@
-import { useState } from "react";
-import "./loginadm.scss";
-import { FaUser, FaLock } from "react-icons/fa";
-import { Link, useNavigate } from "react-router-dom";
+import { useState } from 'react';
 import axios from 'axios';
-import toast, { Toaster } from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
+import './loginadm.scss';
 
 const Login = () => {
     const [nome, setNome] = useState('');
@@ -14,19 +13,22 @@ const Login = () => {
         e.preventDefault();
 
         const usuario = {
-            nome: nome.trim(), 
-            senha: senha.trim()
+            nome: nome.trim(),
+            senha: senha.trim(),
         };
 
-        const url = 'http://4.172.207.208:5019/entrar/';
+        const url = 'http://localhost:5010/entrar/';
         try {
             const resp = await axios.post(url, usuario);
+            
             if (resp.data.erro) {
-                toast.error(resp.data.erro); 
+                toast.error(resp.data.erro);
             } else {
+                // Salva o usuário e o token no localStorage
                 localStorage.setItem('USUARIO', JSON.stringify(resp.data.usuario));
                 localStorage.setItem('TOKEN', resp.data.token);
                 
+                // Navega para a página de administração
                 navigate('/pagina-adm', { state: { usuario: resp.data.usuario } });
             }
         } catch (error) {
@@ -36,40 +38,26 @@ const Login = () => {
     }
 
     return (
-        <div className="outer-container">
-            <div className="container">
-                <form onSubmit={entrar}>
-                    <div className="primeira">
-                        <Link to={'/'}>
-                            <img className="voltar" src="setequd.png" alt="Voltar" />
-                        </Link>
-
-                        <h1>Login-ADM</h1>
-                        <div className="input-field">
-                            <input
-                                type="text"
-                                placeholder="Usuário"
-                                required
-                                value={nome}
-                                onChange={(e) => setNome(e.target.value)}
-                            />
-                            <FaUser className="icon" />
-                        </div>
-                        <div className="input-field">
-                            <input
-                                type="password"
-                                placeholder="Senha"
-                                required
-                                value={senha}
-                                onChange={(e) => setSenha(e.target.value)}
-                            />
-                            <FaLock className="icon" />
-                        </div>
-                        <button type="submit">Login</button>
-                    </div>
-                </form>
-            </div>
-            <Toaster />
+        <div>
+            <form onSubmit={entrar}>
+                <div>
+                    <label>Nome:</label>
+                    <input 
+                        type="text" 
+                        value={nome} 
+                        onChange={(e) => setNome(e.target.value)} 
+                    />
+                </div>
+                <div>
+                    <label>Senha:</label>
+                    <input 
+                        type="password" 
+                        value={senha} 
+                        onChange={(e) => setSenha(e.target.value)} 
+                    />
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
         </div>
     );
 };
