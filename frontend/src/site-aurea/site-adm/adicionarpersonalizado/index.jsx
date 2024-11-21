@@ -38,20 +38,15 @@ export default function Personalizado() {
                 <div>
                 <label>Produto:</label>
                     <select value={nomeproduto} onChange={(e) => setNomeproduto(e.target.value)}>
-                        <option>a</option>
-                        <option>b</option>
-                        <option>c</option>
-                        <option>d</option>
-                        <option>e</option>
-                        <option>f</option>
-                        <option>g</option>
-                        <option>h</option>
-                        <option>i</option>
+                        <option>Anel</option>
+                        <option>Brinco</option>
+                        <option>Pulseira</option>
+                        <option>Colar</option>
                     </select>
                 </div>
                 <div>
-                    <label>Nome:</label>
-                    <input type='text' value={nome} onChange={e => setNome(e.target.value)}/>
+                    <label>Descrição:</label>
+                    <input placeholder='exemplo:prata com azul escuro' type='text' value={nome} onChange={e => setNome(e.target.value)}/>
                 </div>
                 <div>
                     <label>Email:</label>
