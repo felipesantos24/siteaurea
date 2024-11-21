@@ -1,141 +1,61 @@
-body {
-    margin: 0; 
-  }
-  
-  .container-link {
-    color: #fff;
-    font-size: 1.5rem;
-    transition: color 0.6s ease, transform 0.6s ease; 
-    text-decoration: none; 
-    border-bottom: 2px solid transparent;
-  }
-  
-  .container-link:hover {
-    color: #db4545; 
-    transform: translateY(-2px); 
-    border-bottom: 2px solid #db4545; 
-  }
-  
-  
-  .outer-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
-    height: 100vh;       
-    background-color: #97796F; 
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-    height: auto;
-    margin: 30px;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    padding: 40px;
-    transition: transform 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
-  }
-  
-  .primeira {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .container h1 {
-    font-size: 30px;
-    color: #ffff;
-  }
-  
-  .input-field {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    margin: 20px auto;
-  }
-  
-  .input-field input {
-    width: 100%;
-    background: transparent;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
-    padding: 20px 45px 20px 25px;
-  }
-  
-  .input-field input::placeholder {
-    color: #fff;
-  }
-  
-  .input-field .icon {
-    position: absolute;
-    right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 16px;
-    color: #fff;
-  }
-  
-  .recall-forget {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-  }
-  
-  .recall-forget a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .recall-forget a:hover {
-    text-decoration: underline;
-  }
-  
-  .container button {
-    width: 100%;
-    height: 45px;
-    background: #fff;
-    border: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 700;
-  }
-  
-  .signup-link {
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
-  }
-  
-  .signup-link p a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  
-  .signup-link p a:hover {
-    text-decoration: underline;
-  }
-  .voltar{
-    display: flex;
-    position:absolute;
-    z-index: 10;
-    top: 0;
-    width: 30px;
-    left: 0;
-    margin: 30px;
-  
-  }
+.sitesssss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E6E1DE;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  margin: 50px auto;
+  margin-bottom: 28vh;
+  margin-top: 22.3vh;
+}
+
+.sitesssss form {
+  width: 100%;
+}
+
+.sitesssss div {
+  margin-bottom: 15px;
+}
+
+.sitesssss label {
+  display: block;
+  margin-bottom: 1vh;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.sitesssss input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.sitesssss input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.sitesssss button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sitesssss button:hover {
+  background-color: #0056b3;
+}

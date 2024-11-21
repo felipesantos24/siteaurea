@@ -8,7 +8,7 @@ import './index.scss';
 
 export default function Aurea() {
     async function cliqs() {
-        alert('');
+        alert('Mensagem Enviada.');
     }
     return (
     <div className='sitetodo'>
@@ -105,7 +105,7 @@ export default function Aurea() {
 <div className='caixacoment'>
     <div className='comentariossd'>
         <input className='inputsss' placeholder=' 🔎 Comente Aqui'></input>
-        <button className='buttton'>Enviar</button>
+        <button className='buttton' onClick={cliqs}>Enviar</button>
     </div>
     <div className='comentarios'>
     <div className='comentario-exibido'>

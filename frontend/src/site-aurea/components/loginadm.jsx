@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import './loginadm.scss';
+import Cabecarioadm from './cabecarioadm';
+import Rodape from './rodape';
 
 const Login = () => {
     const [nome, setNome] = useState('');
@@ -36,10 +38,14 @@ const Login = () => {
     }
 
     return (
-        <div>
+        <div className='sitetodoss'>
+            <div className='cabecario'>
+                <Cabecarioadm />
+            </div>
+        <div className='sitesssss'>
             <form onSubmit={entrar}>
                 <div>
-                    <label>Nome:</label>
+                    <label >Login:</label>
                     <input 
                         type="text" 
                         value={nome} 
@@ -47,7 +53,7 @@ const Login = () => {
                     />
                 </div>
                 <div>
-                    <label>Senha:</label>
+                    <label >Senha:</label>
                     <input 
                         type="password" 
                         value={senha} 
@@ -56,6 +62,10 @@ const Login = () => {
                 </div>
                 <button type="submit">Entrar</button>
             </form>
+        </div>
+            <div className='rodapens'>
+                <Rodape />
+            </div>
         </div>
     );
 };
