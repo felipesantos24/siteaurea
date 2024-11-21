@@ -5,7 +5,7 @@ import axios from 'axios'
 
 
 
-export default function Cadastrar() {
+export default function Personalizado() {
     const [nome, setNome] = useState('');
     const [nomeproduto, setNomeproduto] = useState('');
     const [email, setEmail] = useState('');

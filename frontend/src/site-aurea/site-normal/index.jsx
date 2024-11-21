@@ -79,6 +79,10 @@ export default function Aurea() {
     <p className='textoanel'>Colares</p> <br />
     <img className='imagg4' src="cor7.jpg" alt="" />
         </Link>
+        <Link to="/personalizado" className='categoriaanel'>
+    <p className='textoanel'>Pedido Personalizado</p> <br />
+    <img className='imagg4' src="cor7.jpg" alt="" />
+        </Link>
         </div>
         </div>
         </div>

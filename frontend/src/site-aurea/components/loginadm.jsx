@@ -24,11 +24,9 @@ const Login = () => {
             if (resp.data.erro) {
                 toast.error(resp.data.erro);
             } else {
-                // Salva o usuário e o token no localStorage
                 localStorage.setItem('USUARIO', JSON.stringify(resp.data.usuario));
                 localStorage.setItem('TOKEN', resp.data.token);
-                
-                // Navega para a página de administração
+
                 navigate('/pagina-adm', { state: { usuario: resp.data.usuario } });
             }
         } catch (error) {
