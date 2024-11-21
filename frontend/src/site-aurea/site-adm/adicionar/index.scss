@@ -1,10 +1,10 @@
-
-
-.pagina-cadastrar {
+.pagina-cadastrars {
     padding: 50px;
+    background-color: #E6E1DE;
 
     
-    .form {
+    .forms {
+        padding: 130px 200px;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -25,6 +25,7 @@
                 font: 400 24px Arial;
                 padding: 5px;
                 border: 1px solid #000;
+                width: 38vw;
             }
         }
     }
@@ -33,4 +34,8 @@
         font: 400 24px Arial;
         padding: 20px;
     }
+}
+.rodape {
+    background-color: #E6E1DE;
+    margin-top: 10px;
 }

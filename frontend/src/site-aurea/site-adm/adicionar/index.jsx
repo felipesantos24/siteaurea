@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './index.scss'
 
 import axios from 'axios'
+import Rodape from '../../components/rodape';
+import Cabecarioadm from '../../components/cabecarioadm';
 
 
 
@@ -30,20 +32,24 @@ export default function Cadastrar() {
 
 
     return (
-        <div className='pagina-cadastrar'>
+<div>
+    <div className='cabecarios'>
+        <Cabecarioadm />
+    </div>
+        <div className='pagina-cadastrars'>
             <h1> PRODUTO </h1>
 
 
-            <div className='form'>
-                <div>
+            <div className='forms'>
+                <div className='kk'>
                 <label>Produto:</label>
                     <select value={nomeproduto} onChange={(e) => setNomeproduto(e.target.value)}>
-                        <option>a</option>
-                        <option>b</option>
-                        <option>c</option>
-                        <option>d</option>
-                        <option>e</option>
-                        <option>f</option>
+                        <option>Anel mykonos em prata com ouro e diamantes</option>
+                        <option>Anel essence em ouro amarelo e ouro branco</option>
+                        <option>Anel mykonos em prata com ouro</option>
+                        <option>Aliança jazz em ouro branco</option>
+                        <option>Anel Opera em ouro branco e ouro amarelo</option>
+                        <option>Anel lyra em ouro branco com diamantes</option>
                         <option>g</option>
                         <option>h</option>
                         <option>i</option>
@@ -69,5 +75,9 @@ export default function Cadastrar() {
             <button onClick={salvar}> SALVAR </button>
 
         </div>
+    <div className='rodape'>
+        <Rodape />
+    </div>
+</div>
     )
 }

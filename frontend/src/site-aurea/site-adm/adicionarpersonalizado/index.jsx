@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './index.scss'
 
 import axios from 'axios'
+import Cabecarioadm from '../../components/cabecarioadm';
+import Rodape from '../../components/rodape'
 
 
 
@@ -10,7 +12,6 @@ export default function Personalizado() {
     const [nomeproduto, setNomeproduto] = useState('');
     const [email, setEmail] = useState('');
     const [telefone, setTelefone] = useState('');
-    const [endereco, setEndereco] = useState('');
 
 
     async function salvar() {
@@ -18,7 +19,6 @@ export default function Personalizado() {
             "nome": nome,
             "email": email,
             "telefone": telefone,
-            "endereco": endereco,
             "nomeproduto": nomeproduto
         }
 
@@ -30,8 +30,12 @@ export default function Personalizado() {
 
 
     return (
+<div>
+    <div className='cabecario'>
+            <Cabecarioadm />
+    </div>
         <div className='pagina-cadastrar'>
-            <h1> PRODUTO </h1>
+            <h1> PRODUTO PERSONALIZADO </h1>
 
 
             <div className='form'>
@@ -49,12 +53,8 @@ export default function Personalizado() {
                     <input placeholder='exemplo:prata com azul escuro' type='text' value={nome} onChange={e => setNome(e.target.value)}/>
                 </div>
                 <div>
-                    <label>Email:</label>
+                    <label>Seu Nome:</label>
                     <input type='text' value={email} onChange={e => setEmail(e.target.value)} />
-                </div>
-                <div>
-                    <label>Endereço:</label>
-                    <input type='text' value={endereco} onChange={e => setEndereco(e.target.value)} />
                 </div>
                 <div>
                     <label>Telefone:</label>
@@ -64,5 +64,9 @@ export default function Personalizado() {
             <button onClick={salvar}> SALVAR </button>
 
         </div>
+    <div className='rsdape'>
+    <Rodape  />
+    </div>
+</div>
     )
 }

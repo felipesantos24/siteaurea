@@ -7,7 +7,9 @@ import Cabecario from '../components/cabecario';
 import './index.scss';
 
 export default function Aurea() {
-
+    async function cliqs() {
+        alert('');
+    }
     return (
     <div className='sitetodo'>
         <div className='cabecario'>
