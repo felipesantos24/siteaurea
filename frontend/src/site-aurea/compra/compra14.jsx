@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Cabecario from '../components/cabecario.jsx'
 import Rodape from "../components/rodape.jsx";
-import Botao from "../components/botaocompra.jsx";
 import './compra.scss'
 
 export default function Compra14() {
@@ -26,9 +25,7 @@ export default function Compra14() {
         <h4 className="precodesc">10x Sem Juros de R$ 495,00</h4>
         </div>
     </div>
-    <div className="botao">
-        <Botao />
-    </div>
+    <Link to='/produto'><p className="compre">Compre ja</p></Link>
     <div className="rodape">
         <Rodape />
     </div>

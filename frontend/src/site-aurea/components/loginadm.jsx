@@ -27,7 +27,7 @@ const Login = () => {
                 localStorage.setItem('USUARIO', JSON.stringify(resp.data.usuario));
                 localStorage.setItem('TOKEN', resp.data.token);
 
-                navigate('/pagina-adm', { state: { usuario: resp.data.usuario } });
+                navigate('/admin', { state: { usuario: resp.data.usuario } });
             }
         } catch (error) {
             console.error('Erro ao fazer login:', error);

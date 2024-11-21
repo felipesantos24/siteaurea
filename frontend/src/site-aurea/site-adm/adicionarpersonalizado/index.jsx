@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './index.scss'
 
 import axios from 'axios'
-import Cabecarioadm from '../../components/cabecarioadm';
+import Cabecario from '../../components/cabecario';
 import Rodape from '../../components/rodape'
 
 
@@ -32,7 +32,7 @@ export default function Personalizado() {
     return (
 <div>
     <div className='cabecario'>
-            <Cabecarioadm />
+            <Cabecario />
     </div>
         <div className='pagina-cadastrar'>
             <h1> PRODUTO PERSONALIZADO </h1>

@@ -3,7 +3,7 @@ import './index.scss'
 
 import axios from 'axios'
 import Rodape from '../../components/rodape';
-import Cabecarioadm from '../../components/cabecarioadm';
+import Cabecario from '../../components/cabecario';
 
 
 
@@ -24,7 +24,7 @@ export default function Cadastrar() {
             "nomeproduto": nomeproduto
         }
 
-        const url = 'http://localhost:5010/listaNegra';
+        const url = 'http://localhost:5010/Inserir';
         let resp = await axios.post(url, paramCorpo);
 
         alert('Pedido adicionada. Id: ' + resp.data.novoId);
@@ -34,7 +34,7 @@ export default function Cadastrar() {
     return (
 <div>
     <div className='cabecarios'>
-        <Cabecarioadm />
+        <Cabecario />
     </div>
         <div className='pagina-cadastrars'>
             <h1> PRODUTO </h1>
@@ -43,16 +43,30 @@ export default function Cadastrar() {
             <div className='forms'>
                 <div className='kk'>
                 <label>Produto:</label>
-                    <select value={nomeproduto} onChange={(e) => setNomeproduto(e.target.value)}>
-                        <option>Anel mykonos em prata com ouro e diamantes</option>
-                        <option>Anel essence em ouro amarelo e ouro branco</option>
-                        <option>Anel mykonos em prata com ouro</option>
-                        <option>Aliança jazz em ouro branco</option>
-                        <option>Anel Opera em ouro branco e ouro amarelo</option>
-                        <option>Anel lyra em ouro branco com diamantes</option>
-                        <option>g</option>
-                        <option>h</option>
-                        <option>i</option>
+                <select value={nomeproduto} onChange={(e) => setNomeproduto(e.target.value)}>
+                        <option>Anel mykonos </option>
+                        <option>Anel essence </option>
+                        <option>Anel mykonos </option>
+                        <option>Aliança jazz </option>
+                        <option>Anel Opera  </option>
+                        <option>Anel lyra  </option>
+                        <option>pulseira reali </option>
+                        <option>pulseira arpege</option>
+                        <option>pulseira mykonos</option>
+                        <option>pulseira mykonos em ouro </option>
+                        <option>pulseira corda</option>
+                        <option>brinco argola line</option>
+                        <option>brinco glee</option>
+                        <option>brinco color</option>
+                        <option>brinco com perola</option>
+                        <option>brinco dengosa</option>
+                        <option>brinco classico com esmeralda</option>
+                        <option>colar icona</option>
+                        <option>colar religioso estrela de davi </option>
+                        <option>colar choker</option>
+                        <option>colar chains</option>
+                        <option>colar melodia</option>
+                        <option>colar reali</option>
                     </select>
                 </div>
                 <div>
@@ -75,7 +89,7 @@ export default function Cadastrar() {
             <button onClick={salvar}> SALVAR </button>
 
         </div>
-    <div className='rodape'>
+    <div className='rddape'>
         <Rodape />
     </div>
 </div>
