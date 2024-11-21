@@ -8,26 +8,27 @@ import Cabecario from '../../components/cabecario';
 
 
 export default function Cadastrar() {
-    const [nome, setNome] = useState('');
-    const [nomeproduto, setNomeproduto] = useState('');
-    const [email, setEmail] = useState('');
-    const [telefone, setTelefone] = useState('');
+    const [nm_pessoa, setnm_pessoa] = useState('');
+    const [nrm_telefone, setnrm_telefone] = useState('');
+    const [email_pessoa, setemail_pessoa] = useState('');
     const [endereco, setEndereco] = useState('');
+    const [nm_produtos, setnm_produtos] = useState('');
+    const [] = useState ('');
 
 
     async function salvar() {
         let paramCorpo = {
-            "nome": nome,
-            "email": email,
-            "telefone": telefone,
+            "nm_pessoa": nm_pessoa,
+            "nrm_telefone": nrm_telefone,
+            "email_pessoa": email_pessoa,
             "endereco": endereco,
-            "nomeproduto": nomeproduto
+            "nm_produtos": nm_produtos
         }
 
         const url = 'http://localhost:5010/Inserir';
         let resp = await axios.post(url, paramCorpo);
 
-        alert('Pedido adicionada. Id: ' + resp.data.novoId);
+        alert('Pedido adicionada. ');
     }
 
 
@@ -41,9 +42,25 @@ export default function Cadastrar() {
 
 
             <div className='forms'>
-                <div className='kk'>
+                <div>
+                    <label>Nome:</label>
+                    <input type='text' value={nm_pessoa} onChange={e => setnm_pessoa(e.target.value)}/>
+                </div>
+                <div>
+                    <label>Telefone:</label>
+                    <input type='text' checked={nrm_telefone} onChange={e => setnrm_telefone(e.target.checked)} />
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input type='text' value={email_pessoa} onChange={e => setemail_pessoa(e.target.value)} />
+                </div>
+                <div>
+                    <label>Endereço:</label>
+                    <input type='text' value={endereco} onChange={e => setEndereco(e.target.value)} />
+                </div>
+                <div>
                 <label>Produto:</label>
-                <select value={nomeproduto} onChange={(e) => setNomeproduto(e.target.value)}>
+                <select value={nm_produtos} onChange={(e) => setnm_produtos(e.target.value)}>
                         <option>Anel mykonos </option>
                         <option>Anel essence </option>
                         <option>Anel mykonos </option>
@@ -68,22 +85,6 @@ export default function Cadastrar() {
                         <option>colar melodia</option>
                         <option>colar reali</option>
                     </select>
-                </div>
-                <div>
-                    <label>Nome:</label>
-                    <input type='text' value={nome} onChange={e => setNome(e.target.value)}/>
-                </div>
-                <div>
-                    <label>Email:</label>
-                    <input type='text' value={email} onChange={e => setEmail(e.target.value)} />
-                </div>
-                <div>
-                    <label>Endereço:</label>
-                    <input type='text' value={endereco} onChange={e => setEndereco(e.target.value)} />
-                </div>
-                <div>
-                    <label>Telefone:</label>
-                    <input type='text' checked={telefone} onChange={e => setTelefone(e.target.checked)} />
                 </div>
             </div>
             <button onClick={salvar}> SALVAR </button>
