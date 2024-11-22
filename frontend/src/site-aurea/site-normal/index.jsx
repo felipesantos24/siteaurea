@@ -113,7 +113,7 @@ export default function Aurea() {
     <div className='comentario-exibido'>
         <h2 className='bruno'>
             <br /> Robson 
-            <p className='elogio'><br />Joias de <br /> altissima qualidade <br /> super recomendo!</p>
+            <p className='elogio'><br />Joias de <br /> altissima qualidade!</p>
         </h2> 
     </div>
     </div>
