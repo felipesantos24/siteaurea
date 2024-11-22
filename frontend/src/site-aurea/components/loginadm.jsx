@@ -18,7 +18,7 @@ const Login = () => {
             "senha": senha
         };
 
-        const url = 'http://localhost:5020/entrar/';
+        const url = 'http://4.172.207.208:3039/entrar/';
         let resp = await axios.post(url, usuario);
         
             if (resp.data.erro) {
