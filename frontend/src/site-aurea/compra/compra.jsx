@@ -10,6 +10,7 @@ export default function Compra() {
 <div className="tudo">
     <div className="cabecario">
         <Cabecario />
+        
     </div>
 <div className="partedecima">
     <div className="direcao">

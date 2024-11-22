@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { toast } from 'react-toastify';
 import './loginadm.scss';
 import Cabecarioadm from './cabecarioadm';
 import Rodape from './rodape';
@@ -15,26 +14,19 @@ const Login = () => {
         e.preventDefault();
 
         const usuario = {
-            nome: nome.trim(),
-            senha: senha.trim(),
+            "nome": nome,
+            "senha": senha
         };
 
-        const url = 'http://localhost:5010/entrar/';
-        try {
-            const resp = await axios.post(url, usuario);
-            
+        const url = 'http://localhost:5020/entrar/';
+        let resp = await axios.post(url, usuario);
+        
             if (resp.data.erro) {
-                toast.error(resp.data.erro);
+                alert(resp.data.erro);
             } else {
-                localStorage.setItem('USUARIO', JSON.stringify(resp.data.usuario));
-                localStorage.setItem('TOKEN', resp.data.token);
-
-                navigate('/admin', { state: { usuario: resp.data.usuario } });
+                localStorage.setItem('USUARIO', resp.data.token);
+                navigate('/admin');
             }
-        } catch (error) {
-            console.error('Erro ao fazer login:', error);
-            toast.error('Erro ao fazer login, por favor tente novamente.');
-        }
     }
 
     return (

@@ -81,17 +81,13 @@ export default function Aurea() {
     <p className='textoanel'>Colares</p> <br />
     <img className='imagg4' src="cor7.jpg" alt="" />
         </Link>
-        <Link to="/personalizado" className='categoriacolar'>
-    <p className='textoanel'>Pedido Personalizado</p> <br />
-    <img className='imagg4' src="images.png" alt="" />
-        </Link>
         </div>
         </div>
         </div>
         <div className='fotocimasobrenos'> <img className='realce' src="as.png" alt="realce" /> </div>
         <div className='sobrenos'>
             <div className='textosobrenos'>
-            <h1 className='categoriah1'>SOBRE NOS :</h1> <br /> 
+            <h1 className='categoriah1'>SOBRE NÓS :</h1> <br /> 
                 <h2>Nossas joias são criadas com pedras preciosas e <br />metais nobres, refletindo um design sofisticado <br/> e um acabamento impecável. Cada peça é feita  <br /> para realçar sua beleza e transformar qualquer <br />  ocasião em um momento inesquecível.</h2>
             </div>
             <div className='imagem'>
@@ -100,7 +96,7 @@ export default function Aurea() {
         </div>
         <div className='comentario'> 
             <h1 className='categoriah12'>DEIXE SEU <br />
-            COMENTARIO</h1>
+            COMENTÁRIO</h1>
             <br /><br /><br />
 <div className='caixacoment'>
     <div className='comentariossd'>
