@@ -10,7 +10,7 @@ export default function Aureaadm() {
     const [listaNegra, setListaNegra] = useState([]);
 
     async function buscar() {
-        const url = 'http://localhost:5020/Consultar/';
+        const url = 'http://4.172.207.208:3039/Consultar/';
         let resp = await axios.get(url);
         setListaNegra(resp.data);
     }

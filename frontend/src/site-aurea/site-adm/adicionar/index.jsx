@@ -22,7 +22,7 @@ export default function Cadastrar() {
             "nm_produtos": nm_produtos
         }
     
-        const url = 'http://localhost:5020/Inserir';
+        const url = 'http://4.172.207.208:3039/Inserir';
         let resp = await axios.post(url, paramCorpo);
     
         alert('Pedido adicionada. ');
